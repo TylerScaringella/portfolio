@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 const education = [
   {
@@ -105,11 +106,11 @@ export default function Home() {
 
       {/* introduction bit */}
       <section>
-        <h1 className="text-3xl text-white font-bold mb-4">
+        <h1 className="text-3xl text-white font-bold">
         Tyler Scaringella
-        <h5 className="text-sm font-light text-gray-300">📍 Boston, MA | Durham, NC</h5>
-        <h5 className="text-sm font-light text-gray-300">🎓 Duke University '28</h5>
         </h1>
+        <h5 className="text-sm font-light text-gray-300">📍 Boston, MA | Durham, NC</h5>
+        <h5 className="text-sm font-light text-gray-300 mb-4">🎓 Duke University '28</h5>
 
         <p className="text-sm">I'm an incoming first-year college student with a passion for computer science who is fasincated by interdiscinplinary fields. I am highly motivated to apply programming to create real world solutions.</p>
 
@@ -118,29 +119,28 @@ export default function Home() {
       <section className="mt-10">
         <h2 className="text-2xl text-white font-bold">
           Education
-
-          <ol className="relative border-s border-gray-700">
-            { education.map(school => <TimelineItem key={school.degree} item={school} />)}
-          </ol>
-
         </h2>
+        
+        <ol className="relative border-s border-gray-700">
+          { education.map((school, index) => <TimelineItem key={index} item={school} />)}
+        </ol>
       </section>
 
       <section className="mt-10">
         <h2 className="text-2xl text-white font-bold">
           Experience
-          
-          {experience.map(exp => { 
-            return (
-              <div>
-                <h3 className="text-lg font-semibold mt-2">{ exp.place }</h3>
-                <ol className="relative border-s border-gray-700">
-                  { exp.timeline.map(item => <TimelineItem key={item.title} item={item} />)}
-                </ol>
-              </div>
-            )
-          })}
         </h2>
+
+        {experience.map((exp, index) => { 
+          return (
+            <div key={index}>
+              <h3 className="text-lg font-semibold mt-2">{ exp.place }</h3>
+              <ol className="relative border-s border-gray-700">
+                { exp.timeline.map((item, index) => <TimelineItem key={index} item={item} />)}
+              </ol>
+            </div>
+          )
+        })}
       </section>
 
       <section className="mt-10">
@@ -154,6 +154,9 @@ export default function Home() {
           Achievements
         </h2>
       </section>
+      
+      <Footer />
     </main>
+
   )
 }
