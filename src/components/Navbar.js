@@ -7,9 +7,9 @@ export default function Navbar() {
                 <li className="inline-flex items-center gap-x-3 pr-3 text-sm font-medium">
                     <Link href={'/'}>home</Link>
                 </li>
-                {/* <li className="inline-flex items-center gap-x-3 p-3 px-4 text-sm font-medium">
-                    <Link href={'/resume'}>resume</Link>
-                </li> */}
+                <li className="inline-flex items-center gap-x-3 p-3 px-4 text-sm font-medium">
+                    <Link href={'/projects'}>projects</Link>
+                </li>
                 <li className="inline-flex items-center gap-x-3 p-3 px-4 text-sm font-medium">
                     <Link href={'/contact'}>contact</Link>
                 </li>

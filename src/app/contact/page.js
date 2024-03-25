@@ -1,4 +1,5 @@
 import Navbar from "@/components/Navbar"
+import Footer from "@/components/Footer"
 import Link from "next/link"
 
 export const metadata = {
@@ -19,6 +20,8 @@ export default function Contact() {
             <Navbar />
             <p className="mb-1 font-bold text-lg">🔗 Tyler Scaringella</p>
             { contacts.map(contact => <p key={contact.href} className="hover:underline"><Link href={contact.href}>{ contact.text }</Link></p>)}
+
+            <Footer />
         </main>
     )
 }

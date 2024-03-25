@@ -7,22 +7,19 @@ const education = [
     school: 'Duke University',
     start: 'August 2024',
     end: 'May 2028',
-    degree: 'Bachelor of Science in Economics',
-    details: ''
+    degree: 'Bachelor of Science in Economics'
   },
   {
     school: 'Duke University',
     start: 'August 2024',
     end: 'May 2028',
-    degree: 'Bachelor of Science in Computer Science',
-    details: ''
+    degree: 'Bachelor of Science in Computer Science'
   },
   {
     school: 'St. Mark\'s School',
     start: 'September 2020',
     end: 'June 2024',
-    degree: 'High School Diploma',
-    details: ''
+    degree: 'High School Diploma'
   },
 ]
 
@@ -82,7 +79,22 @@ const experience = [
 
 const achievements = [
   {
-
+    title: 'Edward A. Taft \'69 Computer Science Prize',
+    awarded: 'June 2023',
+    awardedBy: 'St. Mark\'s School',
+    description: 'Awarded to that student who by interest, curiosity, original thought, and practical application of ideas has acquired a deeper understanding of the field of computer science.'
+  },
+  {
+    title: 'WRSEF Honorable Mention',
+    awarded: 'March 2024',
+    awardedBy: 'Worcester Regional Science and Engineering Fair',
+    description: 'Qualified for the Massachusetts State Science and Engineering Fair'
+  },
+  {
+    title: 'United States Air Force Certificate of Achievement',
+    awarded: 'March 2024',
+    awardedBy: 'Worcester Regional Science and Engineering Fair',
+    description: 'Outstanding Science or Engineering Fair Project'
   }
 ]
 
@@ -94,6 +106,16 @@ const TimelineItem = ({ item }) => {
       <time className="mb-1 text-sm font-normal leading-none text-gray-500">{item.start} - {item.end}</time>
       <p className="text-base font-normal text-gray-400">{ item.degree || item.description }</p>
     </li>
+  )
+}
+
+const Achievement = ({ achievement }) => {
+  return (
+    <div className="mt-5">
+      <h1 className="text-lg font-regular">{ achievement.title }</h1>
+      <span className="text-xs font-thin">Received { achievement.awarded } by { achievement.awardedBy }</span>
+      <p className="text-sm">{ achievement.description }</p>
+    </div>
   )
 }
 
@@ -147,14 +169,17 @@ export default function Home() {
         <h2 className="text-2xl text-white font-bold">
           Skills
         </h2>
+        <p>My skills are listed on my LinkedIn profile <Link className="hover:underline text-blue-500" href={'https://www.linkedin.com/in/tyler-scaringella/details/skills/'}>here</Link>.</p>
       </section>
 
       <section className="mt-10">
         <h2 className="text-2xl text-white font-bold">
           Achievements
         </h2>
+        { achievements.map((achievement, index) => <Achievement key={index} achievement={achievement} />)}
+        <p className="mt-3 text-sm text-gray-400">More of my achievements are listed on my listed on my LinkedIn profile <Link className="hover:underline text-blue-500" href={'https://www.linkedin.com/in/tyler-scaringella/details/skills/'}>here</Link>.</p>
       </section>
-      
+
       <Footer />
     </main>
 
