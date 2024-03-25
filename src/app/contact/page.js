@@ -9,7 +9,7 @@ export const metadata = {
 
 const contacts = [
     { href: 'www.linkedin.com/in/tyler-scaringella', text: 'LinkedIn - linkedin.com/in/tyler-scaringella' },
-    { href: 'https://github.com.com/TylerScaringella', text: 'GitHub - TylerScaringella' },
+    { href: 'https://github.com/TylerScaringella', text: 'GitHub - TylerScaringella' },
     { href: 'https://tylerscaringella.com', text: 'Website - tylerscaringella.com' },
     { href: 'mailto:tyler.scaringella@duke.edu', text: 'Email - tyler.scaringella@duke.edu' }
 ]
