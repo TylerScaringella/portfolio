@@ -177,7 +177,7 @@ export default function Home() {
           Achievements
         </h2>
         { achievements.map((achievement, index) => <Achievement key={index} achievement={achievement} />)}
-        <p className="mt-3 text-sm text-gray-400">More of my achievements are listed on my listed on my LinkedIn profile <Link className="hover:underline text-blue-500" href={'https://www.linkedin.com/in/tyler-scaringella/details/skills/'}>here</Link>.</p>
+        <p className="mt-3 text-sm text-gray-400">More of my achievements are listed on my LinkedIn profile <Link className="hover:underline text-blue-500" href={'https://www.linkedin.com/in/tyler-scaringella/details/skills/'}>here</Link>.</p>
       </section>
 
       <Footer />
