@@ -11,7 +11,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`antialiased max-w-2xl mb-40 flex flex-col md:flex-row mx-4 mt-8 lg:mx-auto ${inter.className}`} >{children}</body>
+      <body className={`antialiased max-w-2xl mb-40 flex flex-col md:flex-row mx-4 mt-8 bg-stone-950 lg:mx-auto ${inter.className}`} >{children}</body>
     </html>
   );
 }
