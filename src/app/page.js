@@ -112,9 +112,9 @@ const TimelineItem = ({ item }) => {
 const Achievement = ({ achievement }) => {
   return (
     <div className="mt-5">
-      <h1 className="text-lg font-regular">{ achievement.title }</h1>
-      <span className="text-xs font-thin">Received { achievement.awarded } by { achievement.awardedBy }</span>
-      <p className="text-sm">{ achievement.description }</p>
+      <h1 className="text-lg font-regular text-white">{ achievement.title }</h1>
+      <span className="text-xs font-thin text-white">Received { achievement.awarded } by { achievement.awardedBy }</span>
+      <p className="text-sm text-white">{ achievement.description }</p>
     </div>
   )
 }
@@ -134,7 +134,7 @@ export default function Home() {
         <h5 className="text-sm font-light text-gray-300">📍 Boston, MA | Durham, NC</h5>
         <h5 className="text-sm font-light text-gray-300 mb-4">🎓 Duke University '28</h5>
 
-        <p className="text-sm">I'm an incoming first-year college student with a passion for computer science who is fasincated by interdiscinplinary topics. I am highly motivated to apply programming to create real world solutions.</p>
+        <p className="text-sm text-white">I'm an incoming first-year college student with a passion for computer science who is fasincated by interdiscinplinary topics. I am highly motivated to apply programming to create real world solutions.</p>
 
       </section>
 
@@ -169,7 +169,7 @@ export default function Home() {
         <h2 className="text-2xl text-white font-bold">
           Skills
         </h2>
-        <p>My skills are listed on my LinkedIn profile <Link className="hover:underline text-blue-500" href={'https://www.linkedin.com/in/tyler-scaringella/details/skills/'}>here</Link>.</p>
+        <p className="text-white">My skills are listed on my LinkedIn profile <Link className="hover:underline text-blue-500" href={'https://www.linkedin.com/in/tyler-scaringella/details/skills/'}>here</Link>.</p>
       </section>
 
       <section className="mt-10">
