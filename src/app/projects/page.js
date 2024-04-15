@@ -17,8 +17,8 @@ export default function Projects() {
     return (
         <main>
             <Navbar />
-            <p className="font-bold text-2xl text-center">⚠️ Page Under Development ⚠️</p>
-            <p className="text-sm">Coming soon with a list of my previous projects.</p>
+            <p className="font-bold text-2xl text-center text-white">⚠️ Page Under Development ⚠️</p>
+            <p className="text-sm text-white">Coming soon with a list of my previous projects.</p>
             <Footer />
         </main>
     )
