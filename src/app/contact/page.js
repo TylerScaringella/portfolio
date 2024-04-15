@@ -18,8 +18,8 @@ export default function Contact() {
     return (
         <main>
             <Navbar />
-            <p className="mb-1 font-bold text-lg">🔗 Tyler Scaringella</p>
-            { contacts.map(contact => <p key={contact.href} className="hover:underline"><Link href={contact.href}>{ contact.text }</Link></p>)}
+            <p className="mb-1 font-bold text-lg text-white">🔗 Tyler Scaringella</p>
+            { contacts.map(contact => <p key={contact.href} className="hover:underline text-white"><Link href={contact.href}>{ contact.text }</Link></p>)}
 
             <Footer />
         </main>
