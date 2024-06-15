@@ -31,7 +31,7 @@ const experience = [
         start: 'January 2022',
         end: 'Present',
         title: 'Lead Java Developer',
-        description: 'Developing applications utilizing different stacks, but primarily in Java. Projects ranging from internal utility tools to user add-on cosmetics. Developed cosmetic backend infrastructure to support 800 concurrent users in a production environment.'
+        description: 'Developing applications utilizing different stacks, but primarily in Java. Projects ranging from internal utility tools to user add-on cosmetics. Developed backend infrastructure to support 1500 concurrent users in a production environment.'
       },
       {
         start: 'June 2021',
