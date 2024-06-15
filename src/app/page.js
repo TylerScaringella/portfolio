@@ -19,7 +19,7 @@ const education = [
     school: 'St. Mark\'s School',
     start: 'September 2020',
     end: 'June 2024',
-    degree: 'High School Diploma'
+    degree: 'High School Diploma. Graduated with distinction.'
   },
 ]
 
