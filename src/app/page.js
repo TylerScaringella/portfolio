@@ -46,7 +46,7 @@ const experience = [
     timeline: [
       {
         start: 'October 2023',
-        end: 'Present',
+        end: 'April 2024',
         title: 'Outside Collaborator',
         description: 'Conducting research under the mentorship of Dr. Samuele Cornell on the application of artificial and machine learning to mitigate hoax swatting crime calls.'
       },
@@ -57,7 +57,7 @@ const experience = [
     timeline: [
       {
         start: 'July 2023',
-        end: 'Present',
+        end: 'June 2024',
         title: 'STEM Research Fellow',
         description: `Conducting research as an outside collaborator at the WAVLab within the Language Technologies Institute at Carnegie Mellon University. 
 
@@ -69,7 +69,7 @@ const experience = [
       },
       {
         start: 'September 2022',
-        end: 'Present',
+        end: 'June 2024',
         title: 'Full Stack Developer',
         description: 'Holding a leading role into the development of St. Mark\'s propietary mobile application, "Lion Link." An application with the purpose of taking St. Mark\'s information ranging from student class schedules, sports schedules, club events and information, etc. to provide St. Mark\'s students and faculty with a platform that has all of their needs in one place. Limiting the number of unncessary emails received by the school, making information more successful, simultaneously improving the quality of life for the community.'
       },
