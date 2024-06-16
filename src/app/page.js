@@ -48,7 +48,7 @@ const experience = [
         start: 'October 2023',
         end: 'April 2024',
         title: 'Outside Collaborator',
-        description: 'Conducting research under the mentorship of Dr. Samuele Cornell on the application of artificial and machine learning to mitigate hoax swatting crime calls.'
+        description: 'Conducting research under the mentorship of Dr. Samuele Cornell on the application of artificial intelligence and machine learning to mitigate hoax swatting crime calls.'
       },
     ]
   },
