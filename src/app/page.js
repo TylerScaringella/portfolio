@@ -134,7 +134,7 @@ export default function Home() {
         <h5 className="text-sm font-light text-gray-300">📍 Boston, MA | Durham, NC</h5>
         <h5 className="text-sm font-light text-gray-300 mb-4">🎓 Duke University '28</h5>
 
-        <p className="text-sm text-white">I'm an incoming first-year college student with a passion for computer science who is fasincated by interdiscinplinary topics. I am highly motivated to apply programming to create real world solutions.</p>
+        <p className="text-sm text-white">I'm a first-year college student with a passion for computer science who is fasincated by interdiscinplinary topics. I am highly motivated to apply programming to create real world solutions.</p>
 
       </section>
 
