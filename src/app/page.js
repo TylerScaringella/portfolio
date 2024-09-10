@@ -10,12 +10,6 @@ const education = [
     degree: 'Bachelor of Science in Computer Science'
   },
   {
-    school: 'Duke University',
-    start: 'August 2024',
-    end: 'May 2028',
-    degree: 'Bachelor of Science in Economics'
-  },
-  {
     school: 'St. Mark\'s School',
     start: 'September 2020',
     end: 'June 2024',
