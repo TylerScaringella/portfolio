@@ -7,7 +7,7 @@ const education = [
     school: 'Duke University',
     start: 'August 2024',
     end: 'May 2028',
-    degree: 'GPA: 4.0\nBachelor of Science in Computer Science'
+    degree: 'GPA: 4.0 | Bachelor of Science in Computer Science'
   },
   {
     school: 'St. Mark\'s School',
