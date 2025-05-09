@@ -7,7 +7,7 @@ const education = [
     school: 'Duke University',
     start: 'August 2024',
     end: 'May 2028',
-    degree: 'GPA: 3.86/4.00 | Bachelor of Science in Computer Science\nMinor: Statistical Scienc\nConcentration in AI and Machine Learning, Software Engineering & Design.'
+    degree: 'GPA: 3.86/4.00 | Bachelor of Science in Computer Science; Minor: Statistical Science; Concentrations in AI and Machine Learning, Software Engineering & Design.'
   },
   {
     school: 'St. Mark\'s School',
