@@ -7,7 +7,7 @@ const education = [
     school: 'Duke University',
     start: 'August 2024',
     end: 'May 2028',
-    degree: 'GPA: 4.0 | Bachelor of Science in Computer Science'
+    degree: 'GPA: 3.86/4.00 | Bachelor of Science in Computer Science\nMinor: Statistical Scienc\nConcentration in AI and Machine Learning, Software Engineering & Design.'
   },
   {
     school: 'St. Mark\'s School',
@@ -23,7 +23,7 @@ const experience = [
     timeline: [
       {
         start: 'January 2022',
-        end: 'Present',
+        end: 'May 2025',
         title: 'Lead Java Developer',
         description: 'Developing applications utilizing different stacks, but primarily in Java. Projects ranging from internal utility tools to user add-on cosmetics. Developed backend infrastructure to support 1500 concurrent users in a production environment.'
       },
@@ -128,7 +128,7 @@ export default function Home() {
         <h5 className="text-sm font-light text-gray-300">📍 Boston, MA | Durham, NC</h5>
         <h5 className="text-sm font-light text-gray-300 mb-4">🎓 Duke University '28</h5>
 
-        <p className="text-sm text-white">I'm a first-year college student with a passion for computer science who is fasincated by interdiscinplinary topics. I am highly motivated to apply programming to create real world solutions.</p>
+        <p className="text-sm text-white">I'm a rising second-year college student with a passion for computer science who is fasincated by interdiscinplinary topics. I am highly motivated to apply programming to create real world solutions.</p>
 
       </section>
 
@@ -163,7 +163,7 @@ export default function Home() {
         <h2 className="text-2xl text-white font-bold">
           Skills
         </h2>
-        <p className="text-white">My skills are listed on my LinkedIn profile <Link className="hover:underline text-blue-500" href={'https://www.linkedin.com/in/tyler-scaringella/details/skills/'}>here</Link>.</p>
+        <p className="text-white">My skills are listed on my LinkedIn profile <Link className="hover:underline text-blue-500" href={'https://www.linkedin.com/in/tyler-scaringella/'}>here</Link>.</p>
       </section>
 
       <section className="mt-10">
@@ -171,7 +171,7 @@ export default function Home() {
           Achievements
         </h2>
         { achievements.map((achievement, index) => <Achievement key={index} achievement={achievement} />)}
-        <p className="mt-3 text-sm text-gray-400">More of my achievements are listed on my LinkedIn profile <Link className="hover:underline text-blue-500" href={'https://www.linkedin.com/in/tyler-scaringella/details/skills/'}>here</Link>.</p>
+        <p className="mt-3 text-sm text-gray-400">More of my achievements are listed on my LinkedIn profile <Link className="hover:underline text-blue-500" href={'https://www.linkedin.com/in/tyler-scaringella'}>here</Link>.</p>
       </section>
 
       <Footer />
