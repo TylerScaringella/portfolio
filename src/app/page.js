@@ -17,7 +17,17 @@ const education = [
   },
 ]
 
-const experience = [
+const experience = [  {
+    place: 'Lazarus AI',
+    timeline: [
+      {
+        start: 'June 2025',
+        end: 'August 2025',
+        title: 'Software Engineering Intern',
+        description: 'Defense Product Team'
+      }
+    ]
+  },
   {
     place: 'Xochi Tech',
     timeline: [
