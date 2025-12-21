@@ -7,7 +7,7 @@ const education = [
     school: 'Duke University',
     start: 'August 2024',
     end: 'May 2028',
-    degree: 'GPA: 3.86/4.00 | Bachelor of Science in Computer Science; Minor: Statistical Science; Concentrations in AI and Machine Learning, Software Engineering & Design.'
+    degree: 'GPA: 3.8/4.0 | Bachelor of Science in Computer Science; Minor: Statistical Science; Concentration in AI and Machine Learning.'
   },
   {
     school: 'St. Mark\'s School',
@@ -17,14 +17,54 @@ const education = [
   },
 ]
 
-const experience = [  {
+const experience = [  
+  {
+    place: 'Duke Applied Machine Learning Group',
+    timeline: [
+      {
+        start: 'August 2025',
+        end: 'Present',
+        title: 'Head of Software Engineering',
+        description: 'Manage the software division of Duke\'s largest computer science club, leading over 300 students. Led recruitment efforts to cultivate a diverse and cohesive team for a physician medical system. Act as both project manager and engineer, enhancing physician processing of patient labs through OCR technology and LLMs.'
+      },
+      {
+        start: 'August 2024',
+        end: 'August 2025',
+        title: 'Software Engineer',
+        description: ''
+      }
+    ]
+  },
+  {
+    place: 'Duke University',
+    timeline: [
+      {
+        start: 'August 2025',
+        end: 'Present',
+        title: 'Computer Science Teaching Assistant',
+        description: 'Collaborate with professors to co-lead weekly recitations for 25 students in CS201 (Data Structures & Algorithms). Conduct weekly office hours, providing support on assignments and exam preparation. Foster a positive learning environment that encouraged student engagement and understanding of complex concepts.'
+      }
+    ]
+  },
+  {
+    place: 'Duke Baseball',
+    timeline: [
+      {
+        start: 'August 2024',
+        end: 'Present',
+        title: 'Data Analyst',
+        description: 'Track statistics for bullpens, scrimmages, and games to support real-time decision-making, while cleaning and verifying data from multiple sources to ensure accuracy and reliability. Develop statistical models for player development, opponent scouting, and recruitment, including an expected outcomes model to predict the result of each batter\'s plate appearance.'
+      }
+    ]
+  },
+  {
     place: 'Lazarus AI',
     timeline: [
       {
         start: 'June 2025',
         end: 'August 2025',
         title: 'Software Engineering Intern',
-        description: 'Defense Product Team'
+        description: 'Developed a multi-language code interpreter, enhancing LLM reasoning abilities through autonomous code execution and revision. Improved onboarding efficiency and reduced operating costs through model capability enhancements. Built and refined software tools for the public sector, streamlining workflows for government clients.'
       }
     ]
   },
@@ -35,7 +75,7 @@ const experience = [  {
         start: 'January 2022',
         end: 'May 2025',
         title: 'Lead Java Developer',
-        description: 'Developing applications utilizing different stacks, but primarily in Java. Projects ranging from internal utility tools to user add-on cosmetics. Developed backend infrastructure to support 1500 concurrent users in a production environment.'
+        description: 'Led the enhancement of the "StoneworksMC" Minecraft server, focusing on performance and user experience improvements. Collaborated with administrators and management to spearhead key projects, ensuring alignment with technical needs and user expectations. Mentored junior developers, fostering a culture of code quality and user-centered design thinking. Developed infrastructure capable of supporting 1,500 concurrent users during peak times, significantly enhancing server capacity.'
       },
       {
         start: 'June 2021',
