@@ -19,6 +19,15 @@ const projects = [
         important: true
     },
     {
+        title: "Tariff Analysis Tool",
+        description: "Built a web interface that allows small business owners to upload their invoices for goods they purchase. Developed a model that extracts goods information from invoice text, identifies the source country from invoice data, and retrieves tariff information from the USITC website. Integrated an LLM to analyze and explain to business owners how they are impacted by tariffs and what alternatives are available to them.",
+        thumbnail: null,
+        technologies: ["LLM", "Web Scraping", "LangChain"],
+        links: {},
+        date: "2025",
+        important: false
+    },
+    {
         title: "Event Management Platform",
         description: "Built a mobile/web event management platform with ticketing, Apple Wallet integration, and an intuitive UI to boost student engagement. Designed for the Duke Community.",
         thumbnail: null,
