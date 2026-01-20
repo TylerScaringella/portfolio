@@ -19,23 +19,6 @@ const education = [
 
 const experience = [  
   {
-    place: 'Duke Applied Machine Learning Group',
-    timeline: [
-      {
-        start: 'August 2025',
-        end: 'Present',
-        title: 'Head of Software Engineering',
-        description: 'Manage the software division of Duke\'s largest computer science club, leading over 300 students. Led recruitment efforts to cultivate a diverse and cohesive team for a physician medical system. Act as both project manager and engineer, enhancing physician processing of patient labs through OCR technology and LLMs.'
-      },
-      {
-        start: 'August 2024',
-        end: 'August 2025',
-        title: 'Software Engineer',
-        description: ''
-      }
-    ]
-  },
-  {
     place: 'Duke University',
     timeline: [
       {
@@ -54,6 +37,23 @@ const experience = [
         end: 'Present',
         title: 'Data Analyst',
         description: 'Track statistics for bullpens, scrimmages, and games to support real-time decision-making, while cleaning and verifying data from multiple sources to ensure accuracy and reliability. Develop statistical models for player development, opponent scouting, and recruitment, including an expected outcomes model to predict the result of each batter\'s plate appearance.'
+      }
+    ]
+  },  
+  {
+    place: 'Duke Applied Machine Learning Group',
+    timeline: [
+      {
+        start: 'August 2025',
+        end: 'January 2026',
+        title: 'Head of Software Engineering',
+        description: 'Manage the software division of Duke\'s largest computer science club, leading over 300 students. Led recruitment efforts to cultivate a diverse and cohesive team for a physician medical system. Act as both project manager and engineer, enhancing physician processing of patient labs through OCR technology and LLMs.'
+      },
+      {
+        start: 'August 2024',
+        end: 'August 2025',
+        title: 'Software Engineer',
+        description: ''
       }
     ]
   },
