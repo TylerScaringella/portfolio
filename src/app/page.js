@@ -19,17 +19,6 @@ const education = [
 
 const experience = [  
   {
-    place: 'Duke University',
-    timeline: [
-      {
-        start: 'August 2025',
-        end: 'Present',
-        title: 'Computer Science Teaching Assistant',
-        description: 'Collaborate with professors to co-lead weekly recitations for 25 students in CS201 (Data Structures & Algorithms). Conduct weekly office hours, providing support on assignments and exam preparation. Foster a positive learning environment that encouraged student engagement and understanding of complex concepts.'
-      }
-    ]
-  },
-  {
     place: 'Duke Baseball',
     timeline: [
       {
@@ -37,6 +26,28 @@ const experience = [
         end: 'Present',
         title: 'Data Analyst',
         description: 'Track statistics for bullpens, scrimmages, and games to support real-time decision-making, while cleaning and verifying data from multiple sources to ensure accuracy and reliability. Develop statistical models for player development, opponent scouting, and recruitment, including an expected outcomes model to predict the result of each batter\'s plate appearance.'
+      }
+    ]
+  },  
+  {
+    place: 'LinkedIn',
+    timeline: [
+      {
+        start: 'May 2026',
+        end: 'August 2026',
+        title: 'Software Engineering Intern',
+        description: 'Built an agentic AI-powered Azure cost intelligence engine that improves spend visibility, provides usage insights, and identifies optimization opportunities. Developed AI agents that analyze Azure spending patterns and guide developers toward cost-saving opportunities, driving an estimated $400K in monthly savings. Additionally, built a customizable AI-assisted code review tracker that saves approximately 1.5 hours of senior engineering time each day.'
+      }
+    ]
+  },
+  {
+    place: 'Duke University',
+    timeline: [
+      {
+        start: 'August 2025',
+        end: 'April 2026',
+        title: 'Computer Science Teaching Assistant',
+        description: 'Collaborate with professors to co-lead weekly recitations for 25 students in CS201 (Data Structures & Algorithms). Conduct weekly office hours, providing support on assignments and exam preparation. Foster a positive learning environment that encouraged student engagement and understanding of complex concepts.'
       }
     ]
   },  
